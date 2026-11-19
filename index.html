@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070a12">
+  <meta name="description" content="FED DIGITALS — your digital services, all in one place.">
+  <title>FED DIGITALS | Links</title>
+  <style>
+    :root { color-scheme: dark; --blue:#1769ff; --cyan:#38bdf8; --bg:#070a12; --muted:#9ca8bd; }
+    * { box-sizing:border-box }
+    body {
+      margin:0; min-height:100vh; padding:38px 18px;
+      display:flex; align-items:center; justify-content:center;
+      font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+      color:#f7f9ff;
+      background:
+        radial-gradient(ellipse at 50% 0%, rgba(23,105,255,.23), transparent 42%),
+        radial-gradient(circle at 10% 80%, rgba(23,105,255,.10), transparent 28%),
+        var(--bg);
+    }
+    .card {
+      width:min(100%, 440px); padding:34px 25px 26px; text-align:center;
+      border:1px solid rgba(116,159,255,.22); border-radius:28px;
+      background:linear-gradient(155deg, rgba(20,28,47,.96), rgba(9,13,23,.98));
+      box-shadow:0 24px 80px rgba(0,0,0,.48), 0 0 42px rgba(23,105,255,.10);
+    }
+    .logo-wrap {
+      width:116px; height:116px; margin:0 auto 18px; border-radius:50%;
+      padding:4px; background:linear-gradient(135deg,#fff,#1769ff 65%,#07152e);
+      box-shadow:0 0 32px rgba(23,105,255,.32);
+    }
+    .logo { width:100%; height:100%; border-radius:50%; object-fit:cover; background:#000; }
+    h1 { margin:0; font-size:29px; letter-spacing:1.8px; font-weight:850; }
+    .tag { margin:8px 0 22px; color:var(--muted); font-size:14px; letter-spacing:.7px; }
+    .intro { margin:0 auto 25px; max-width:310px; color:#d4dced; font-size:14px; line-height:1.7; }
+    .links { display:grid; gap:12px; }
+    .link {
+      min-height:54px; display:flex; align-items:center; gap:13px;
+      padding:0 17px; border-radius:15px; text-decoration:none; color:#f8fbff;
+      background:linear-gradient(100deg,rgba(24,39,68,.98),rgba(15,24,42,.98));
+      border:1px solid rgba(119,157,225,.19);
+      transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+      font-weight:650; font-size:15px;
+    }
+    .link:hover { transform:translateY(-2px); border-color:rgba(56,142,255,.75); box-shadow:0 8px 24px rgba(0,75,210,.16); }
+    .icon { width:25px; height:25px; display:grid; place-items:center; border-radius:8px; font-size:15px; font-weight:800; }
+    .instagram { background:linear-gradient(135deg,#7c3aed,#ec4899,#f59e0b); }
+    .tiktok { background:#10151e; color:#fff; border:1px solid #39465b; }
+    .whatsapp { background:#16a34a; color:white; }
+    .arrow { margin-left:auto; color:#7faaff; font-size:19px; }
+    .section-label { margin:27px 0 12px; color:#7184a6; font-size:10px; letter-spacing:2.5px; font-weight:800; }
+    .footer { margin-top:25px; color:#74819a; font-size:11px; letter-spacing:1.3px; }
+    .accent { color:#4d91ff; }
+    @media (max-width:380px) { .card{padding:28px 17px 23px} h1{font-size:25px} }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo-wrap"><img class="logo" src="assets/fed-digitals-logo.jpg" alt="FED DIGITALS logo"></div>
+    <h1>FED <span class="accent">DIGITALS</span></h1>
+    <p class="tag">YOUR DIGITAL WORLD, ONE PLACE.</p>
+    <p class="intro">Welcome to FED DIGITALS. Connect with us, explore our updates, and message us for orders and information.</p>
+
+    <div class="section-label">CONNECT WITH US</div>
+    <nav class="links" aria-label="Social media links">
+      <a class="link" href="https://www.instagram.com/feddigitals?knvt=ajJncHY0b3plNDU1&amp;utm_source=qr" target="_blank" rel="noopener">
+        <span class="icon instagram">◎</span><span>Instagram</span><span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://www.tiktok.com/@feddigitals?_r=1&amp;_t=ZS-9BWRh0wxV2K" target="_blank" rel="noopener">
+        <span class="icon tiktok">♪</span><span>TikTok</span><span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://wa.me/message/JK6CFD44RLE4I1" target="_blank" rel="noopener">
+        <span class="icon whatsapp">✆</span><span>WhatsApp — Contact & Orders</span><span class="arrow">↗</span>
+      </a>
+    </nav>
+
+    <p class="footer">FED DIGITALS <span class="accent">•</span> STAY CONNECTED</p>
+  </main>
+</body>
+</html>
